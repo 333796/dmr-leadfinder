@@ -1,0 +1,11 @@
+requests>=2.31,<3
+pandas>=2.0,<4
+openpyxl>=3.1,<4
+pydantic>=2.6,<3
+PyYAML>=6.0,<7
+tenacity>=8.2,<10
+tqdm>=4.66,<5
+loguru>=0.7,<1
+python-dotenv>=1.0,<2
+streamlit>=1.39,<2
+pytest>=8,<10

@@ -1,0 +1,18 @@
+source: 2gis
+city: "Стерлитамак"
+categories:
+  - кофейня
+  - стоматология
+  - автосервис
+  - салон красоты
+max_results_per_category: 500
+min_rating: 3.0
+has_phone: true
+output:
+  format: csv
+  path: ./output/leads
+  split_by_category: false
+rate_limit:
+  requests_per_second: 6
+  retry_on_429: true
+  max_retries: 3
